@@ -1,7 +1,5 @@
 body {
-    font-size: small;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    line-height: 1.6em;
+    font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1, h2 {
@@ -40,9 +38,7 @@ h2 {
     border-color: #007e7e;
     width: 200px;
 
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 0px 20px 20px 20px;
 
     margin-left: 20px;
 
@@ -50,6 +46,8 @@ h2 {
     line-height: 1;
     background-image: url(images/cocktail.gif);
     background-repeat: repeat-x;
+
+    float: right;
 }
 
 #elixirs h2 {
@@ -58,4 +56,40 @@ h2 {
 
 #elixirs h3 {
     color: #d12c47;
+}
+
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+a:link {
+    color: #007e7e;
+}
+
+a:visited {
+    color: #333333;
+}
+
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333333;
+}
+
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
 }
